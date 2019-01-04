@@ -19,7 +19,7 @@ public class MutantAppService implements IMutantAppService{
 	}
 	
 	@Override
-	public boolean isMutant(DNARequest dnaRequest) {
+	public boolean isMutant(DNARequest dnaRequest) throws Exception {
 		
 		DNA dna = new DNA(dnaRequest.dna);
 		

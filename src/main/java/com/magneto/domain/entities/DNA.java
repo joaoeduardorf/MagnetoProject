@@ -1,7 +1,17 @@
 package com.magneto.domain.entities;
 
+import org.bson.types.ObjectId;
+import org.springframework.data.annotation.Id;
+
 public class DNA {
+	@Id
+	public ObjectId _id;
 	private String[] sequence;
+	private boolean isMutant;
+	
+	public void setId(ObjectId id) {
+		_id = id;
+	}
 
 	public DNA(String[] nucleotideSequence) {
 		setSequence(nucleotideSequence);
@@ -85,9 +95,11 @@ public class DNA {
         }
         
         if(quantityOfFindedSequences > 1) {
+        	isMutant = true;
         	return true;
         }else {
-        	return deepSearch();
+        	isMutant = false;
+        	return false;
         }
 	}
 	
