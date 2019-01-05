@@ -1,6 +1,6 @@
 # MagnetoProject
 
-Magneto quer recrutar a maior quantidade de mutantes para lutar contra os X-Men, para ele encomendou um software que identifique as sequencias de DNA para identificar mutantes e humanos.
+Magneto quer recrutar a maior quantidade de mutantes para lutar contra os X-Men, para isso ele encomendou um software que identifique as sequências de DNA para identificar mutantes e humanos.
 
 ## Pre-requisito
 
