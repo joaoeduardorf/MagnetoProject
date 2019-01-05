@@ -2,7 +2,7 @@
 
 Magneto quer recrutar a maior quantidade de mutantes para lutar contra os X-Men, para isso ele encomendou um software que identifique as sequências de DNA para identificar mutantes e humanos.
 
-## Pre-requisito
+## Pré-requisito
 
 Para o funcionamento do projeto será necessário.
 
@@ -28,7 +28,7 @@ git clone https://github.com/joaoeduardorf/MagnetoProject.git
 cd MagnetoProject
 ```
 
-Patindo a pasta raíz do projeto é possível acessar a pasta src/main/resources onde se encontra o arquivo application.properties contendo a configuração do Mongo da aplicação.
+Patindo a pasta raiz do projeto é possível acessar a pasta src/main/resources onde se encontra o arquivo application.properties contendo a configuração do Mongo da aplicação.
 
 ```bash
 spring.data.mongodb.host=127.0.0.1
@@ -53,7 +53,7 @@ gradlew.bat bootRun
 
 ## Tests
 
-Para executar os testes automatizados via linha de comando será necessário executar o seguinte comando na parta raíz do projeto.
+Para executar os testes automatizados via linha de comando será necessário executar o seguinte comando na parta raiz do projeto.
 
 ###### Linux ou Mac
 
