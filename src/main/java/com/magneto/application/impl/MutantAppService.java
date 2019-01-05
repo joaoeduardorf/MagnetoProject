@@ -6,6 +6,7 @@ import org.springframework.stereotype.Service;
 import com.magneto.application.dtos.DNARequest;
 import com.magneto.application.interfaces.IMutantAppService;
 import com.magneto.domain.entities.DNA;
+import com.magneto.domain.entities.Stats;
 import com.magneto.domain.services.interfaces.IMutantService;
 
 @Service
@@ -24,6 +25,11 @@ public class MutantAppService implements IMutantAppService{
 		DNA dna = new DNA(dnaRequest.dna);
 		
 		return _mutantService.isMutant(dna);
+	}
+
+	@Override
+	public Stats stats() {
+		return _mutantService.stats();
 	}
 
 }
