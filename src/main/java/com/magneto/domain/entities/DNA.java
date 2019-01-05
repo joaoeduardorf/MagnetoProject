@@ -37,7 +37,7 @@ public class DNA {
 
 	public boolean isValidNucleotide() {
 		for (String string : sequence) {
-			if (!string.matches("^[A|T|C|G]*$")) {
+			if (!string.matches("^[A|a|T|t|C|c|G|g]*$")) {
 				return false;
 			}
 		}
@@ -47,7 +47,7 @@ public class DNA {
 	private char[][] createMatrix() {
 		char[][] matrix = new char[sequence.length][];
 		for (int i = 0; i < sequence.length; i++) {
-			matrix[i] = sequence[i].toCharArray();
+			matrix[i] = sequence[i].toUpperCase().toCharArray();
 		}
 
 		return matrix;

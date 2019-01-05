@@ -2,7 +2,6 @@ package com.magneto.domain.services.impl;
 
 import org.bson.types.ObjectId;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.domain.Example;
 import org.springframework.stereotype.Service;
 
 import com.magneto.domain.entities.DNA;

@@ -4,19 +4,24 @@ public class Stats {
 	long _countMutants;
 	long _countHumans;
 	double _ratio;
-	
+
 	public Stats(long countMutants, long countHumans) {
 		_countMutants = countMutants;
 		_countHumans = countHumans;
 		double mutants = countMutants;
 		double humans = countHumans;
-		_ratio = mutants/humans;
+		if (humans > 0) {
+			_ratio = mutants / humans;
+		}			
+		else {
+			_ratio = mutants;
+		}
 	}
-	
+
 	public long get_countMutants() {
 		return _countMutants;
 	}
-	
+
 	public double get_ratio() {
 		return _ratio;
 	}

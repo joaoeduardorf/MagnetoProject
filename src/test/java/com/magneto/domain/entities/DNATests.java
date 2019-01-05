@@ -2,10 +2,7 @@ package com.magneto.domain.entities;
 
 import static org.junit.Assert.*;
 
-import org.junit.Before;
 import org.junit.Test;
-
-import junit.framework.Assert;
 
 public class DNATests {
 	String[] validMutantSequence = { "ATGCGA", "CAGTGC", "TTATGT", "AGAAGG", "CCCCTA", "TCACTG" };
