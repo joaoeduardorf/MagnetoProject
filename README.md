@@ -111,6 +111,6 @@ http://localhost:8080/stats
 
 ## License
 
-Esse será utilizado apenas para estudo e não será continuado, podendo ser utilizado livremente.
+Esse será utilizado apenas para estudo e não será continuado, podendo assim ser utilizado livremente.
 
 [MIT](https://choosealicense.com/licenses/mit/)
