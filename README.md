@@ -87,7 +87,24 @@ http://localhost:8080/mutant
 }
 ```
 
+**Response**
 
+O response irá retorna os seguintes status:
+
+Status 200 - mutante
+
+```json
+Status code: 200 
+Response body: true
+```
+
+Staus 403 - humana.
+
+
+```json
+Status code: 403 
+Response body: false
+```
 
 ##### Estatísticas
 
